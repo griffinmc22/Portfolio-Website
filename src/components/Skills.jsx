@@ -1,14 +1,12 @@
 import React from 'react'
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
+import Golang from '../assets/golang.png';
+import Python from '../assets/python.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
-import { FaAws } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -20,38 +18,30 @@ const Skills = () => {
                 <p className='py-4'>These are the thechnologies I've worked with</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt='HTML Icon'></img>
-                    <p>HTML</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt='HTML Icon'></img>
-                    <p>CSS</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt='HTML Icon'></img>
+            <div className='w-full grid grid-cols-2  sm:grid-cols-3 gap-4 text-center py-8'>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto ' src={JavaScript} alt='Javascript'></img>
                     <p>Javascript</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt='HTML Icon'></img>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={ReactImg} alt='React'></img>
                     <p>React</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={GitHub} alt='HTML Icon'></img>
-                    <p>Github</p>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Golang} alt='Golang'></img>
+                    <p>Golang</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Node} alt='HTML Icon'></img>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Python} alt='Python'></img>
+                    <p>Python</p>
+                </div>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Node} alt='Node'></img>
                     <p>Node</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Mongo} alt='HTML Icon'></img>
+                <div className='shadow-md py-4 w-40 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Mongo} alt='Mongo'></img>
                     <p>MongoDB</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={FireBase} alt='HTML Icon'></img>
-                    <p>Firebase</p>
                 </div>
             </div>
         </div>
