@@ -17,7 +17,9 @@ const About = () => {
                         <p>Hi nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>Paragraph Text</p>
+                        <p>Welcome to my digital home! As a business administration graduate who has transitioned into a data analyst role, I am passionate about harnessing the power of programming to unlock innovative solutions in the insurance industry. With a strong foundation in data-driven decision making and a keen eye for identifying trends, I am excited to embark on the next stage of my career, venturing into the realm of software development and programming.</p>
+                        <p className='py-2'>As I make the transition from crunching numbers to crafting code, my ultimate goal is to seamlessly integrate my analytical skills and love for technology to create transformative applications. By doing so, I aim to drive efficiency, growth, and success in the modern business landscape, and contribute to a more connected, innovative future.</p>
+
                     </div>
             </div>
         </div>
