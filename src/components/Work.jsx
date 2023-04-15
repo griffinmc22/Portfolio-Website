@@ -1,6 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import RealEstate from '../assets/realestate.jpg'
+import Portfoliosite from '../assets/portfoliosite.png'
 
 const Work = () => {
   return (
@@ -14,35 +13,18 @@ const Work = () => {
             {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 {/* Grid Item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Portfoliosite})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            This React Portfolio Site
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://www.griffinmcmurray.io'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${RealEstate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href='/'>
+                            <a target='_blank' rel='nooppener noreferrer' href='https://github.com/griffinmc22/Portfolio-Website'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>

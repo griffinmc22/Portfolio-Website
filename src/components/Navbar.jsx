@@ -31,11 +31,11 @@ const Navbar = () => {
                 Skills
                 </Link>
                 </li>
-                {/* <li className='hover:text-pink-500'>
+                <li className='hover:text-pink-500'>
                 <Link to="work" smooth={true} duration={500}>
                 Work
                 </Link>
-                </li> */}
+                </li>
                 <li className='hover:text-pink-500'>
                 <Link to="contact" smooth={true} duration={500}>
                 Contact
@@ -67,6 +67,11 @@ const Navbar = () => {
             <li className='py-6 m-4 text-center w-40 text-4xl border-2 rounded-lg'>
                 <Link onClick={handleClick} to="links" smooth={true} duration={500}>
                 Links
+                </Link>
+            </li>
+            <li className='py-6 m-4 text-center w-40 text-4xl border-2 rounded-lg'>
+                <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+                Work
                 </Link>
             </li>
             <li className='py-6 m-4 text-center w-40 text-4xl border-2 rounded-lg'>
