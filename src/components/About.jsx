@@ -14,7 +14,8 @@ const About = () => {
             </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi nice to meet you. Please take a look around.</p>
+                        <p>Hi, nice to meet you.</p>
+                        <p>Please take a look around.</p>
                     </div>
                     <div>
                         <p>Welcome to my digital home! As a business administration graduate who has transitioned into a data analyst role, I am passionate about harnessing the power of programming to unlock innovative solutions in the insurance industry. With a strong foundation in data-driven decision making and a keen eye for identifying trends, I am excited to embark on the next stage of my career, venturing into the realm of software development and programming.</p>
