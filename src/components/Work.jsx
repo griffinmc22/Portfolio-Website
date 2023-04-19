@@ -21,7 +21,7 @@ const Work = () => {
                             This React Portfolio Site
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://www.griffinmcmurray.io'>
+                            <a href='https://www.griffinmcmurray.com'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a target='_blank' rel='nooppener noreferrer' href='https://github.com/griffinmc22/Portfolio-Website'>
