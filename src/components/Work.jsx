@@ -1,5 +1,6 @@
 import React from 'react'
 import Portfoliosite from '../assets/portfoliosite.png'
+import SnwSite from '../assets/snwsite.png'
 
 const Work = () => {
   return (
@@ -16,7 +17,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Portfoliosite})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             This React Portfolio Site
                         </span>
@@ -25,6 +26,23 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a target='_blank' rel='nooppener noreferrer' href='https://github.com/griffinmc22/Portfolio-Website'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${SnwSite})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Example Site for Local Bike Shop
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a target='_blank' rel='nooppener noreferrer' href='https://snw-website-3.hop.sh/' >
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a target='_blank' rel='nooppener noreferrer' href='https://github.com/griffinmc22/SNW-Website'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
