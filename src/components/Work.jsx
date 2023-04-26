@@ -36,7 +36,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Example Site for Local Bike Shop
+                            Work in progress for Local Bike Shop
                         </span>
                         <div className='pt-8 text-center'>
                             <a target='_blank' rel='nooppener noreferrer' href='https://snw-website-3.hop.sh/' >

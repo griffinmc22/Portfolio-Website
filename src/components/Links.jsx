@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaBars, FaGithub, FaLinkedin, FaTimes, FaMedium} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Resume from '../assets/Griffin McMurray Resume.pdf'
 
 
 
@@ -34,7 +35,7 @@ const Links = () => {
                 </a>
               </li>
               <li className='mx-auto w-[160px] h-[60px] flex items-center content-center bg-[#565f69]'>
-                <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                <a className='flex justify-between items-center w-full text-gray-300' href={Resume}>
                   Resume <BsFillPersonLinesFill size={30} />
                 </a>
               </li>
