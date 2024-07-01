@@ -1,43 +1,36 @@
-# My Vite/React.js Portfolio
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This repository contains the source code for my personal portfolio built with Vite, React.js, and Tailwind CSS. The purpose of this repository is to provide potential employers with a way to review my code and better understand my skills and expertise.
+## Getting Started
 
-## Project Overview
+First, run the development server:
 
-This portfolio website showcases my projects, skills, and experiences as a web developer. It has been designed with a modern and responsive user interface and leverages the latest web development technologies.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Responsive design that works seamlessly on various devices and screen sizes
-- Smooth scrolling navigation for an enhanced user experience
-- Project showcase with filterable categories to demonstrate my range of expertise
-- Contact form for easy communication with potential employers or collaborators
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Technologies
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- Vite: A build tool and development server that provides fast and efficient build processes
-- React.js: A popular and powerful JavaScript library for building user interfaces
-- Tailwind CSS: A utility-first CSS framework for rapid UI development
+## Learn More
 
-## Code Review
+To learn more about Next.js, take a look at the following resources:
 
-Feel free to explore the repository and review the code. Below are some key points to consider while reviewing:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Organization and structure: The project follows a modular and component-based structure, making it easy to understand and maintain.
-- Code quality: The code adheres to best practices, and proper comments are added where necessary for better readability and understanding.
-- Design patterns: Observe how reusable components and modern design patterns have been implemented to create a consistent and maintainable codebase.
-- Performance and optimization: The use of Vite, React, and Tailwind CSS ensures the website is performant and optimized for various devices and browsers.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Live Demo
+## Deploy on Vercel
 
-Visit the live version of my portfolio at `https://griffinmcmurray.com` to see the website in action.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- Vite.js documentation: https://vitejs.dev/guide/
-- React.js documentation: https://reactjs.org/docs/getting-started.html
-- Tailwind CSS documentation: https://tailwindcss.com/docs
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
